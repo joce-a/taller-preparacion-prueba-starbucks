@@ -1,0 +1,120 @@
+/*NAV*/
+.starbucks-nav {
+	background-color: #f5f4f4;
+	border-top: 10px solid #1f6243;
+}
+.starbucks-nav__menu {
+	background-color: #f5f4f4;
+}
+.starbucks-nav__containerfluid {
+	background-color: #f5f4f4;
+	min-height: 80px;
+}
+.starbucks-nav__logo {
+	width: 20%;
+}
+.starbucks-nav__ul {
+	padding-top: 30px;
+}
+
+/*RESERVE*/
+.starbucks-reserve {
+	margin-top: 90px;
+	background-image: url(assets/images/banner1.jpg);
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+.starbucks-reserve__box {
+	width: 600px;
+	height: 300px;
+	border-radius: 20px;
+	background-color: black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	margin: 150px auto;
+	text-align: center;
+	display: inline-block;
+}
+.glyphicon-star {
+	font-size: 3em;
+	color: #FFF;
+}
+.starbucks-reserve__box_txt {
+	padding: 50px 0;
+}
+.starbucks-reserve__box_h {
+	color: #FFF;
+}
+.starbucks-reserve__box_p {
+	color: #FFF;
+	font-size: 1.2em;
+}
+.starbucks-reserve__box_btn {
+	height: 50px;
+	width: 300px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 50px;
+	margin: auto;
+}
+.starbucks-reserve__box_btn_p {
+	color: #FFF;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+/*REWARDS*/
+.starbucks-rewards {
+	margin-top: 10px;
+	background-image: url(assets/images/stars2.png);
+	background-size: cover;
+	height: 600px;
+	text-align: right;
+}
+.starbucks-rewards__box_txt {
+	padding: 20px 30px;
+}
+.starbucks-blend__box_txt {
+	padding: 10px 30px;
+}
+.glyphicon-thumbs-up {
+	font-size: 3em;
+	color: #FFF;
+}
+/*BLEND*/
+.starbucks-blend {
+	margin-top: 10px;
+	background-image: url(assets/images/beans.png);
+	background-size: cover;
+	height: 600px;
+	text-align: right;
+}
+.glyphicon-heart {
+	font-size: 3em;
+	color: #FFF;
+}
+/*FOOTER*/
+.starbucks-footer {
+	background-color: #f5f4f4;
+}
+.starbucks-footer__rrss {
+	width: 50px;
+	display: inline-block;
+	margin: auto;
+}
+.starbucks-footer__content {
+	text-align: center;
+	padding: 30px 0;
+}
+.starbucks-footer__content_img {
+	width: 50px;
+	margin: 40px auto;
+}
+.starbucks-footer__line {
+	height: 10px;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 30px;
+}
+
