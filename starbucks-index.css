@@ -17,6 +17,12 @@
 	padding-top: 30px;
 }
 
+@media screen and (max-width: 767px) {
+	.starbucks-nav__toggle {
+		margin-top: 20px;
+		}
+}
+
 /*RESERVE*/
 .starbucks-reserve {
 	margin-top: 90px;
@@ -75,9 +81,6 @@
 .starbucks-rewards__box_txt {
 	padding: 20px 30px;
 }
-.starbucks-blend__box_txt {
-	padding: 10px 30px;
-}
 .glyphicon-thumbs-up {
 	font-size: 3em;
 	color: #FFF;
@@ -89,6 +92,18 @@
 	background-size: cover;
 	height: 600px;
 	text-align: right;
+}
+.starbucks-blend__box_btn {
+	height: 50px;
+	width: 300px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 50px;
+	margin: auto;
+}
+.starbucks-blend__box_txt {
+	padding: 10px 30px;
 }
 .glyphicon-heart {
 	font-size: 3em;
@@ -118,3 +133,54 @@
 	margin-bottom: 30px;
 }
 
+@media screen and (max-width: 700px) {
+	.starbucks-reserve {
+		height: 400px;
+	}
+	.starbucks-reserve__box {
+		width: 400px;
+		border-radius: 10px;
+		margin: 70px auto;
+	}
+	.glyphicon-star {
+	font-size: 2em;
+	}
+	.starbucks-reserve__box_txt {
+	padding: 50px 0;
+	}
+	.starbucks-reserve__box_btn {
+		height: 30px;
+		width: 100px;
+		border-radius: 30px;
+	}
+	.starbucks-reserve__box_btn_p {
+		font-size: 1em;
+		margin-top: 4px;
+	}
+	.starbucks-rewards {
+		height: 400px;
+		text-align: center;
+	}
+	.starbucks-rewards__box_txt {
+		padding: 50px 30px;
+	}
+	.glyphicon-thumbs-up {
+		font-size: 2em;
+	}
+	.starbucks-blend {
+		height: 400px;
+		text-align: center;
+		}
+	.starbucks-blend__box_txt {
+		padding: 0 30px;
+	}
+	.glyphicon-heart {
+		font-size: 2em;
+	}
+	.starbucks-blend__box_btn {
+		height: 35px;
+		width: 170px;
+		border-style: solid;
+		border-radius: 30px;
+	}
+}
